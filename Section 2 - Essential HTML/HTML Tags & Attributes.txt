@@ -1,0 +1,38 @@
+HTML Tags
+===============================================
+<h1>Some Heading</h1>
+<p>This is a paragraph</p>
+
+Tags are the building blocks of a web page
+Used to structure content
+Most have an open and closing tag
+
+
+Common Tags
+----------------------------------------------
+<html> : Root element of a webpage
+<head> : Contains document information such as the title
+<title> : Title of document
+<body> : Body/content of document
+<hl> -< h6>: Headings
+<p> : Paragraphs
+<a> : Links to other pages or resources
+<img> : Images
+<ul><ol> : Unordered & Ordered Lists
+<table> : Tables
+<div> <span> : Generic containers
+<form> <input> : Forms & Inputs
+
+
+Tag Attributes
+------------------------------------------------
+<tagname attributeName="value">Content</tagname>
+<tagname attributeName="value" />
+
+Attributes provide additional information
+Some tags to not include content and only include attributes
+Slash is optional on self-closing tags
+
+e.g.
+<a href="about.html">About</a>
+<img src="./images/logo.png" alt="Logo" />
