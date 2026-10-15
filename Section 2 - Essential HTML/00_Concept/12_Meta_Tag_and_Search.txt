@@ -1,0 +1,41 @@
+Charset
+--------------------------------------------
+<meta charset="UTF-8" />
+
+Specifies character encoding
+HTML5 spec encourages UTF-8 standard
+Should be the first child element in the <head>
+
+Viewport
+------------------------------------------
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+Controls layout on different devices/screen sizes
+Width is set to the width of the device
+Initial scale is set to 1.0 to ensure no unwanted zoom, etc
+
+
+Keywords & Description
+-----------------------------------
+name="description"
+content="Learn HTML, CSS, and JavaScript with our beginner-friendly tutorials."/>
+<meta name="keywords" content="HTML, CSS, JavaScript, web development" />
+
+Description is displayed in search results
+Description should be no more than 160 characters
+Keywords should relate to the page content
+
+Author
+-------------------------------------
+<meta name="author" content="John Doe" />
+
+Provides information about the content author
+Good to use on blog posts
+
+Robots
+-------------------------------------------
+<meta name="robots" content="index, follow" />
+
+Controls how search engines index the page
+index/noindex tells whether to index the page or not
+follow/nofollow tells whether to index and follow links
