@@ -1,0 +1,9 @@
+Semantic Elements
+=================
+<header>   Header of the layout
+<footer>   Footer of the layout
+<nav>      Navigation area
+<main>     The main content area
+<article>  Publication area
+<section>  Grouped area
+<aside>    Sidebar/secondary content
