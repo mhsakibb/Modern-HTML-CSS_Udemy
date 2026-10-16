@@ -1,0 +1,6 @@
+Images
+----------------------------------------
+<img src="/image.jpg" alt="Image" />
+
+"src" is the location of the image
+"alt" is alternate text if image is not displayed
