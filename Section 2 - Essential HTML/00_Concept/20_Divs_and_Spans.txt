@@ -1,0 +1,11 @@
+<div> & <span>
+=================
+<div>
+  <h3>Content Title</h3>
+  <p>This is my content</p>
+  <a href="#">Link</a>
+</div>
+
+Generic containers for content
+divs are block-level & spans are inline
+Used with classes and ids
