@@ -1,0 +1,24 @@
+1. Open command Palette: ctrl+shift+p
+2. Toggle Explpres: ctrl+b
+3. Toggle Terminal: ctrl+j
+4. Search in file: ctrl+f
+5. Search all files: ctrl+shift+f
+6. Redo: ctrl+y
+7. New  Window: ctrl+shift+n
+8. Repen Tab: ctrl+shift+t
+9. Switch Tabs: ctrl+Tab
+10. Close Files/Tab: ctrl+w
+11. Move Lines: alt/option+arrow
+12. Copy Lines: Shift+option/alt+arrow
+13. Move Cursor by Word: Option/all+arrow
+14. Move to Beginning: Home
+15. Move to End: End
+16: Select Characters: Shift+arrow
+17. Select Characters: shift+ arrow
+18. Select Next: ctrl+d
+19. Select all Instances: ctrl+shift+l
+20. Comment Outline: ctrl+/
+21. Select all within tag: ctrl+w (keep going)
+22. Isert Bellow: ctrl+enter
+23. Insert Bellow: ctrl+enter
+24. Inter Above: ctrl+shift+enter
