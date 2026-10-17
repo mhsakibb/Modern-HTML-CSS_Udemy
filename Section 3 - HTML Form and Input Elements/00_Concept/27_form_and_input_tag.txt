@@ -1,0 +1,26 @@
+<form> Element
+===============
+<form action="/api/process" method="POST">
+<input type="text" name="company" id="company" />
+</form>
+
+HTML can only display forms, not process them
+The <form> tag needs to have <input> tags
+The action is the server-side endpoint and the method is
+the HTTP method to use
+
+<input> Element Types
+---------------------
+text:      Single-line text field
+email:     Single line email
+password:  Single line password with hidden characters
+number:    Single line numbers
+textarea:  Multi-line text field
+select:    Dropdown list of options
+date:      Date picker
+checkbox:  Checkbox field with multiple options
+radio:     Radio boxes with single option
+file:      File upload field
+submit:    Submit button
+range:     Slider input to select from a range
+color:     Color picker
