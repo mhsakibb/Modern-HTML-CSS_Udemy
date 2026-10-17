@@ -1,0 +1,12 @@
+Implementing CSS
+================
+X Inline CSS - Add CSS to the HTML tag
+X Internal CSS - Add CSS within <style> tags
+V External CSS - CSS in it's own file
+
+CSS Selector Syntax
+-------------------
+selector {
+  property1: valuel;
+  property2: value2;
+}
