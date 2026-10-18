@@ -10,3 +10,10 @@ selector {
   property1: valuel;
   property2: value2;
 }
+
+Type Selectors
+Class Selectors
+ID Selectors
+Descendants
+html, body & Selector
+Multiple Selectors
