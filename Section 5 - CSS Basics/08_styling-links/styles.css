@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+}
+/* Regular link */
+a{
+  text-decoration: none;
+  color: #333;
+}
+/* Hover - cursor on the text */
+a:hover{
+  color: red;
+}
+/* Active - by click*/
+a:active{
+  background: purple;
+}
+/* Focus after clicking */
+a:focus{
+  background: yellow;
+}
+/* Visited */
+a:visited{
+    color: coral;
+}

@@ -1,0 +1,9 @@
+Styling Links
+=============
+States
+-------
+a:link       Normal unvisited link
+a:hover      Link when hovered
+a:active     Moment link is clicked
+a:focus      Moment link receives focus
+a:visited    Link user has visited
