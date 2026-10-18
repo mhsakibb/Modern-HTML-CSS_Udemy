@@ -1,0 +1,20 @@
+System/Web Safe Fonts
+=======================
+Arial (sans-serif)
+Verdana (sans-serif)
+Tahoma (sans-serif)
+Trebuchet (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script (cursive)
+
+
+Web Fonts
+==========
+Need to be imported into a project using a
+@font-face rule or a service like Google Fonts
+
+Can be imported to the HTML file using <link> or
+the CSS file using @import

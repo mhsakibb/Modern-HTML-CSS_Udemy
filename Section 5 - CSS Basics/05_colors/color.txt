@@ -1,0 +1,55 @@
+Where To Use Colors
+===================
+color:              Text colors
+background-color:   Background colors
+border:             Border colors
+outline:            Outline colors
+box-shadow:         Box drop shadows
+text-shadow:        Text drop shadows
+fill:               SVG fill colors
+
+
+
+Color Names
+------------
+red, blue, green, yellow, etc
+darkred, darkblue darkgreen, etc
+lightred, lightblue, lightgreen, etc
+mediumred,mediumblue, mediumgreen, etc
+coral, chocolate, crimson, khaki, etc
+
+147 total color names
+
+https://htmlcolorcodes.com/color-names/
+
+
+Hexidecimal Values
+------------------
+# AA    39   39
+  RED GREEN BLUE
+
+Made up of 6 digits organized in pairs for RGB
+Range from 00 to FF where 00 means no intensity and FF means max intensity
+Letters represent the intensity greater than 9. A represents 10, B, 11 and so on
+
+
+RGB Values
+----------
+0,0,0 Black
+
+255,0,0 Red
+
+0,255.0 Green
+
+0,0,255 Blue
+
+Made up of 3 pairs of 3 digits from 0 - 255
+0 means no intensity and 255 means max intensity
+We can also use rgba(0, 0, 0, 0.5), which includes alpha (transparency)
+
+
+HSL Values
+-----------
+Specify by hue, saturation, lightness.
+Measured by degrees on a color wheel from 0 to 360
+The lightness and saturation value ranges from 0% to 100%

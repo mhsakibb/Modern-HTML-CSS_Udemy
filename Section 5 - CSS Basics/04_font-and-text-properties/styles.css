@@ -1,35 +1,23 @@
-body{
-    font-family: Arial, sans-serif;
-    background-color: #fff;/*Shorthand */
-    /* RGB */
-    /* background: rgb(0,0,0); */
-
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 2;
 }
 
-/* Color Names */
-.sporty{
-    color: red;
+a {
+  text-decoration: none;
 }
 
-/* Hex Values */
-.casual{
-    color: #e04553;
-}
+h2 {
+  font-size: x-large;
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
 
-.card{
-    /* RGBA */
-    background-color: rgba(0,0,0,.5);
+  /* font: italic small-caps 700 26px Arial; */
 
-    /* HSL */
-    background-color: hsl(0, 100%, 50%);
-
-    /* HSLA */
-    background-color: hsla(0, 100%, 50%,0.2);
-}
-
-.card-2{
-    background-color: #000;
-    color: #fff;
-    /* opacity */
-    opacity: 0.2;
+  text-transform: capitalize;
+  text-indent: 20px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  text-align: center;
 }
