@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+    /* border:0;
+    font-family: inherit; */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* border: red solid 5px;  */
+}
+
+.box {
+  background: coral;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+}
