@@ -1,0 +1,17 @@
+Display Property
+================
+Specifies the display behavior (type of rendering box) of an
+element
+
+none
+block
+inline
+inline-block
+flex
+grid
+table
+table-row
+table-cell
+list-item
+inherit
+initial
