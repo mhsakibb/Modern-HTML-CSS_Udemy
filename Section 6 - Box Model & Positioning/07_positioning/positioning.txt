@@ -1,0 +1,10 @@
+Position Property
+====================
+Specifies how to position elements
+on the page relative to the rest of the layout
+
+static
+relative
+absolute
+fixed
+sticky
