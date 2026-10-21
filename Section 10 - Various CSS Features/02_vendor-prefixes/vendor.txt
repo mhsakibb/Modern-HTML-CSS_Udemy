@@ -1,0 +1,19 @@
+Vendor Prefixes
+==============
+Prefixes add support for new experimental features in certain
+browsers
+
+-webkit- Chrome, Safari, newer versions of Opera & Edge
+-moz- Firefox
+-o- Old pre-Webkit versions of Opera
+-ms- Internet Explorer & Edge before Chromium
+
+Custom Properties
+
+selector {
+-webkit-transition: all 4s ease;
+-moz-transition: all 4s ease;
+-ms-transition: all 4s ease;
+-o-transition: all 4s ease;
+transition: all 4s ease;
+}

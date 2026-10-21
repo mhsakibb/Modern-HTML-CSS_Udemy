@@ -1,0 +1,19 @@
+
+filter Property
+=================
+
+img {
+filter: grayscale(100%);
+}
+
+
+grayscale
+blur
+brightness
+contrast
+drop shadow
+hue-rotate
+invert
+opacity
+saturate
+sepia
