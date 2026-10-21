@@ -1,0 +1,31 @@
+No Nesting
+===========
+. header {
+background: lightcoral;
+padding: 0 20px;
+}
+
+. header h1 {
+font-size: 4rem;
+}
+
+. header p {
+font-size: 2rem;
+margin: 25px 0px 25px;
+}
+
+Nesting
+==========
+.header {
+background: lightcoral;
+padding: 0 20px;
+}
+
+h1 {
+font-size: 4rem;
+}
+
+p{
+font-size: 2rem;
+margin: 25px 0px 25px;
+}
