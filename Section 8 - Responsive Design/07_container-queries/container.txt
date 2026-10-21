@@ -1,0 +1,10 @@
+Container Queries
+===================
+@container (max-width: 600px) {
+/* CSS rules */
+
+}
+
+@container rule defines different style rules
+container-type property creates a container (inline-size, size)
+container-name is used to name containers
