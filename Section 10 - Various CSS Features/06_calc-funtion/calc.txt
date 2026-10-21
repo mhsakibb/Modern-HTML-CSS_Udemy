@@ -1,0 +1,8 @@
+calc() Function
+===============
+.container {
+ width: calc(500px - 100px) /* 400px */
+}
+
+Perform simple arithmetic operations within CSS
+Useful for responsive design or applying dynamic styles
