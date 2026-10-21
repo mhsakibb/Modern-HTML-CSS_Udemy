@@ -1,0 +1,18 @@
+Media Queries
+================
+@media screen and (max-width: 600px) {
+/* CSS rules */
+
+}
+
+@media rule defines different style rules
+Media features - min/max-height, min/max-width, orientation
+Media types - screen, print, speech, etc
+
+Typical Breakpoints
+--------------------
+576px.   Smartphones
+768px.   Tablets
+992px.   Desktop
+1024px.  Landscape
+1200px. Desktop/Widescreen
