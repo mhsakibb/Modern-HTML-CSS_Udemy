@@ -1,8 +1,8 @@
-html {
-  /* rem units pertain to the font size of this element, which is 16px by default */
-  /* Same as 10px */
-  /* font-size: 62.5%; */
-}
+/* html {
+  rem units pertain to the font size of this element, which is 16px by default
+  Same as 10px
+  font-size: 62.5%;
+} */
 
 * {
   margin: 0;
