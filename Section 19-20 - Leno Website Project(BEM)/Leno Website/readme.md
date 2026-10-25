@@ -52,7 +52,7 @@ LENO presents a Rwsponsive Website through a modern, dark-themed landing page. I
 
 ### 3. Interactive Video Preview
 
-<!-- Screenshot path: upload your image as screenshots/03-video-preview-modal.png -->
+
 <div align="center">
   <img src="screenshots/03-video-preview-modal.png" alt="LENO video preview with the video modal open" width="850" />
   <p><em>The preview button opens a modal with an embedded video; the modal can be closed to return to the page.</em></p>
@@ -76,7 +76,7 @@ Leno Website/
 ├── js/
 │   └── script.js               # Mobile menu, video modal, and navbar scroll behavior
 ├── images/                     # Logos, app mockups, backgrounds, and section images
-├── screenshots/                # Add the three README screenshots here
+├── screenshots/                
 │   ├── 01-homepage.png
 │   ├── 02-features-section.png
 │   └── 03-video-preview-modal.png
