@@ -17,14 +17,34 @@
 </p>
 
 <p align="center">
-  <a href="#-course-overview">Course Overview</a> •
-  <a href="#-repository-structure">Repository Structure</a> •
-  <a href="#-featured-projects">Featured Projects</a> •
-  <a href="#-learning-roadmap">Learning Roadmap</a> •
-  <a href="#-getting-started">Getting Started</a>
+  <a href="#course-overview">Course Overview</a> •
+  <a href="#repository-structure">Repository Structure</a> •
+  <a href="#featured-projects">Featured Projects</a> •
+  <a href="#learning-roadmap">Learning Roadmap</a>
 </p>
 
 ---
+
+<details>
+<summary><strong>📑 Table of Contents (Click to expand)</strong></summary>
+
+<br />
+
+- [Course Overview](#course-overview)
+- [What This Repository Covers](#what-this-repository-covers)
+- [Repository Structure](#repository-structure)
+- [Featured Projects](#featured-projects)
+  - [1. LENO Website](#1-leno-website)
+  - [2. TUTOR Website](#2-tutor-website)
+  - [3. LUMINA Creative Website](#3-lumina-creative-website)
+  - [4. Smooth Scroll Mini-Project](#4-smooth-scroll-mini-project)
+  - [5. BONO Landing Form](#5-bono-landing-form)
+- [Learning Roadmap](#learning-roadmap)
+- [Tools & Technologies](#tools--technologies)
+- [Key Learning Outcomes](#key-learning-outcomes)
+
+</details>
+
 
 ## Course Overview
 
@@ -41,7 +61,10 @@ This repository contains my practice work for **Modern HTML & CSS From The Begin
 - **Workflow & Deployment:** **Git**, **GitHub**, and web-hosting/deployment practice.
 - **Project Building:** reusable layout patterns, **BEM** naming, and complete responsive website builds.
 
+
+
 ## Repository Structure
+
 
 The tree below preserves the course section and project-folder names currently present in this repository. The individual section folders contain the lesson examples, practice files, and challenges for that topic.
 
@@ -59,7 +82,7 @@ Modern-HTML-CSS_Udemy/
 ├── Section 10 - Various CSS Features/
 ├── Section 11 - Lumina Creative Website Project/
 │   └── lumina-creative-project/
-├── Section 12 - Git GitHuub and Web Hosting/
+├── Section 12 - Git GitHub and Web Hosting/
 │   └── LUMINA/  (Git submodule declared in .gitmodules)
 ├── Section 13 - Web Accessibilit Introduction/
 ├── Section 14 - Advanced Selectors - Pseudo Classes and Elements/
@@ -74,13 +97,18 @@ Modern-HTML-CSS_Udemy/
 └── README.md
 ```
 
-## 🌐 Featured Projects
+## Featured Projects
 
 These deployed projects are part of my practical frontend learning journey.
 
 ### 1. LENO Website
 
+
 A responsive promotional website for a mobile productivity and health app. LENO showcases its features through testimonials, an interactive video preview, app screenshots, and download call-to-action sections. It also includes a separate details page with pricing plans and additional feature information, built using HTML, CSS, BEM methodology, and JavaScript interactions.
+
+---
+### Live view: https://leno-website-sooty.vercel.app/
+---
 
 #### Home / Hero Section
 
@@ -195,6 +223,10 @@ The Details page includes an additional Features section covering Real-Time Data
 
 A responsive course landing page designed around video-course creation and learning. It presents learning topics, course chapters, a structured summary, key takeaways, course details, and author information. A separate Contact page includes a message form and an embedded Google Maps location, demonstrating multi-page navigation and responsive web design.
 
+---
+## Live view: https://tutor-website-nu-six.vercel.app/
+
+
 #### Home & Learning Topics
 
 The homepage introduces the course with a hero section, a course call-to-action, and an overview of the learning experience. The “What Will You Learn?” section presents eight visual topics covering goal setting, layout planning, creative concepts, calls to action, HTML templates, previews, coding techniques, and launching a project.
@@ -285,44 +317,96 @@ The Contact page also embeds Google Maps in the Office Location section. The map
 
 ### 3. LUMINA Creative Website
 
-A creative-agency portfolio site that showcases work through a visual gallery and introduces the agency, its services, and team. It demonstrates page structure, image presentation, reusable styling, and responsive design.
+A creative-agency portfolio website that showcases visual projects and introduces the agency's services and team. This multi-page project focuses on clean layouts, image presentation, reusable CSS styling, and responsive design.
+
+---
+## Live view: https://modern-html-cssudemy-lumina-creativ.vercel.app/
+
+** Key Features & Learning Highlights**
+
+- **Creative Portfolio Gallery:** Displays a collection of project images in a structured gallery layout, with Lightbox2 providing an enlarged image-viewing experience when an image is clicked.
+- **Multi-Page Navigation:** Connects the Home, About, and Contact pages through a consistent navigation menu.
+- **Services & Team Showcase:** Presents Photography, Web Design, and Graphic Design services alongside team-member profiles.
+- **Contact Form UI:** Includes First Name, Last Name, Email Address, and Message fields with a Send Message button.
+- **Responsive Layout:** Practices Flexbox, reusable container classes, spacing, typography, and responsive styling to organize content across screen sizes.
 
 <p align="center">
   <a href="https://modern-html-cssudemy-lumina-creativ.vercel.app/">
-    <img src="./screenshots/lumina-homepage.png" alt="LUMINA Creative Website homepage screenshot" width="90%" />
+    <img src="./screenshots/lumina-homepage.png" alt="LUMINA Creative Website homepage and portfolio gallery" width="90%" />
   </a>
 </p>
 
-<p align="center"><a href="https://modern-html-cssudemy-lumina-creativ.vercel.app/"><strong>🚀 View Live Website</strong></a> · <a href="./Section%2011%20-%20Lumina%20Creative%20Website%20Project/lumina-creative-project"><strong>View Source Folder</strong></a></p>
+<p align="center">
+  <a href="https://modern-html-cssudemy-lumina-creativ.vercel.app/">
+    <strong> View Live Website</strong>
+  </a>
+  ·
+  <a href="./Section%2011%20-%20Lumina%20Creative%20Website%20Project/lumina-creative-project">
+    <strong>View Source Folder</strong>
+  </a>
+</p>
 
+---
 
 ### 4. Smooth Scroll Mini-Project
 
-A focused mini-project demonstrating smooth in-page navigation between sections. It is a useful exercise in anchor links, page navigation, and creating a more fluid browsing experience.
+A single-page website that demonstrates smooth in-page navigation through multiple content sections. It provides practical experience with anchor links, section-based layouts, and a more fluid browsing experience.
+
+---
+## Live view: https://smooth-scroll-mini-project.vercel.app/
+
+** Key Features & Learning Highlights**
+
+- **Section-Based Navigation:** Includes navigation links for Home and Project 1 through Project 4, connecting visitors to different sections of the same page.
+- **Smooth Scrolling:** Demonstrates how in-page navigation can move between section targets with a smooth scrolling effect.
+- **Structured Content Sections:** Organizes project content using headings, images, paragraphs, and lists to create a consistent page layout.
+- **Navigation & User Experience:** Shows how clear navigation links make a long, single-page website easier to explore.
+- **Practical HTML & CSS:** Reinforces anchor links, page structure, spacing, and the styling of repeated content sections.
 
 <p align="center">
   <a href="https://smooth-scroll-mini-project.vercel.app/">
-    <img src="./screenshots/smooth-scroll-homepage.png" alt="Smooth Scroll Mini-Project homepage screenshot" width="90%" />
+    <img src="./screenshots/smooth-scroll-homepage.png" alt="Smooth Scroll Mini-Project homepage with section navigation" width="90%" />
   </a>
 </p>
 
-<p align="center"><a href="https://smooth-scroll-mini-project.vercel.app/"><strong>🚀 View Live Website</strong></a></p>
+<p align="center">
+  <a href="https://smooth-scroll-mini-project.vercel.app/">
+    <strong> View Live Website</strong>
+  </a>
+</p>
 
+---
 
 ### 5. BONO Landing Form
 
-A compact landing-page mini-project focused on a promotional hero, form-oriented call to action, spacing, and flexible layout techniques—especially useful for practicing **Flexbox** and form presentation.
+A promotional landing page for the BONO web app, introducing the product with a coming-soon message and a contact form. This mini-project focuses on presenting marketing content alongside form fields in a clean, organized website layout.
+
+---
+### https://bono-landingform.vercel.app/
+---
+
+** Key Features & Learning Highlights**
+
+- **Promotional Hero Section:** Introduces the BONO web app through the headline "Coming Soon for Every Developer" and supporting content about its content-management experience.
+- **Contact Form Interface:** Provides Name, Email, and Message fields with a Submit button, demonstrating the structure and presentation of a website form.
+- **Contact Information:** Displays contact details, including an email address and telephone number, to create a clear contact area.
+- **Flexbox & Layout Practice:** Reinforces alignment, spacing, content grouping, and the arrangement of promotional content and form elements.
+- **Frontend Form Design:** Provides practice with form inputs, labels, buttons, and user-facing content. The presence of a form UI alone does not guarantee that submitted messages are stored or delivered.
 
 <p align="center">
   <a href="https://bono-landingform.vercel.app/">
-    <img src="./screenshots/bono-landing-form-homepage.png" alt="BONO Landing Form homepage screenshot" width="90%" />
+    <img src="./screenshots/bono-landing-form-homepage.png" alt="BONO Landing Form homepage with promotional content and contact form" width="90%" />
   </a>
 </p>
 
-<p align="center"><a href="https://bono-landingform.vercel.app/"><strong>🚀 View Live Website</strong></a> · <a href="./Section%209%20-%20Landing%20Form%20Mini-Project/Bono-Landing_Form"><strong>View Source Folder</strong></a></p>
+<p align="center">
+  <a href="https://bono-landingform.vercel.app/">
+    <strong> View Live Website</strong>
+  </a>
+</p>
 
 
-## 🗺️ Learning Roadmap
+## Learning Roadmap
 
 | Course section | Main focus | What I practiced |
 |---|---|---|
