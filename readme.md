@@ -189,17 +189,98 @@ The Details page includes an additional Features section covering Real-Time Data
 
 </details>
 
+
+
 ### 2. TUTOR Website
 
-A course-focused website concept that introduces video-course creation and presents learning topics, course chapters, a summary, takeaways, and instructor information in a responsive layout.
+A responsive course landing page designed around video-course creation and learning. It presents learning topics, course chapters, a structured summary, key takeaways, course details, and author information. A separate Contact page includes a message form and an embedded Google Maps location, demonstrating multi-page navigation and responsive web design.
+
+#### Home & Learning Topics
+
+The homepage introduces the course with a hero section, a course call-to-action, and an overview of the learning experience. The “What Will You Learn?” section presents eight visual topics covering goal setting, layout planning, creative concepts, calls to action, HTML templates, previews, coding techniques, and launching a project.
 
 <p align="center">
   <a href="https://tutor-website-nu-six.vercel.app/">
-    <img src="./screenshots/tutor-homepage.png" alt="TUTOR Website homepage screenshot" width="90%" />
+    <img src="./screenshots/tutor-homepage.png" alt="TUTOR Website homepage and learning topics" width="90%" />
   </a>
 </p>
 
-<p align="center"><a href="https://tutor-website-nu-six.vercel.app/"><strong> View Live Website</strong></a> · <a href="./Section%2017-18%20-%20Tutor%20Website%20Project/Tutor%20Website"><strong>View Source Folder</strong></a></p>
+<p align="center">
+  <a href="https://tutor-website-nu-six.vercel.app/">
+    <strong>View Live Website</strong>
+  </a>
+  ·
+  <a href="./Section%2017-18%20-%20Tutor%20Website%20Project/Tutor%20Website">
+    <strong>View Source Folder</strong>
+  </a>
+</p>
+
+#### Main Course Chapters
+
+The Main Course Chapters section highlights three core topics: Setting Clear Objectives, Content Creation Strategies, and Coding Essentials. Each chapter card combines an icon, title, and short description in a structured layout.
+
+<p align="center">
+  <a href="https://tutor-website-nu-six.vercel.app/#chapters">
+    <img src="./screenshots/tutor-chapters.png" alt="TUTOR Main Course Chapters section" width="90%" />
+  </a>
+</p>
+
+#### Course Summary
+
+The Course Summary section organizes learning content into three topic groups: Setting Clear Objectives, Content Creation Strategies, and From Layout to HTML/CSS. Each group contains numbered points that break the course concepts into manageable learning steps.
+
+<p align="center">
+  <a href="https://tutor-website-nu-six.vercel.app/#summary">
+    <img src="./screenshots/tutor-summary.png" alt="TUTOR Course Summary with grouped learning points" width="90%" />
+  </a>
+</p>
+
+<details>
+<summary><strong>See more screenshots</strong></summary>
+
+<br />
+
+#### Key Takeaways
+
+The Key Takeaways section uses an icon-based card layout to highlight six learning outcomes, including enhanced skills, a global perspective, cloud technology, networking, problem-solving, and technical proficiency.
+
+<p align="center">
+  <a href="https://tutor-website-nu-six.vercel.app/#takeaways">
+    <img src="./screenshots/tutor-takeaways.png" alt="TUTOR Key Takeaways cards" width="90%" />
+  </a>
+</p>
+
+#### Author Information
+
+The Author Information section presents an author illustration alongside information areas for expertise, experience, and skills. Its two-column layout demonstrates how profile-related content can be arranged with supporting text and a call to action.
+
+<p align="center">
+  <a href="https://tutor-website-nu-six.vercel.app/#author">
+    <img src="./screenshots/tutor-author.png" alt="TUTOR Author Information section" width="90%" />
+  </a>
+</p>
+
+#### Contact Form
+
+The separate Contact page contains a contact heading, introductory text, and a form with Name, Email, and Message fields plus a Send Message button. The form is configured with a Formspree endpoint, illustrating how a frontend contact form can connect to an external form-handling service.
+
+<p align="center">
+  <a href="https://tutor-website-nu-six.vercel.app/contact.html">
+    <img src="./screenshots/tutor-contact-form.png" alt="TUTOR Contact page with the message form" width="90%" />
+  </a>
+</p>
+
+#### Office Location - Google Maps
+
+The Contact page also embeds Google Maps in the Office Location section. The map iframe displays the location configured in the project, demonstrating how an external map can be integrated into a website.
+
+<p align="center">
+  <a href="https://tutor-website-nu-six.vercel.app/contact.html">
+    <img src="./screenshots/tutor-office-location.png" alt="TUTOR Contact page office location and embedded Google Map" width="90%" />
+  </a>
+</p>
+
+</details>
 
 
 ### 3. LUMINA Creative Website
@@ -272,41 +353,6 @@ A compact landing-page mini-project focused on a promotional hero, form-oriented
 - **Visual Studio Code & Live Server** — local development and browser preview.
 - **Vercel** — live deployment for the featured project demos.
 
-## Getting Started
-
-### 1. Clone the repository
-
-Use `--recurse-submodules` to initialize the `LUMINA` submodule referenced by `.gitmodules`.
-
-```bash
-git clone --recurse-submodules https://github.com/mhsakibb/Modern-HTML-CSS_Udemy.git
-cd Modern-HTML-CSS_Udemy
-```
-
-If you already cloned the repository without submodules, initialize them with:
-
-```bash
-git submodule update --init --recursive
-```
-
-### 2. Open a lesson or project
-
-Open the section folder you want to study in **Visual Studio Code**. For a website project, open its `index.html` using **Live Server** or open the HTML file directly in your browser.
-
-### 3. Add project screenshots
-
-Place one homepage screenshot for each featured demo in `screenshots/`, using these exact filenames:
-
-```text
-screenshots/
-├── leno-homepage.png
-├── tutor-homepage.png
-├── lumina-homepage.png
-├── smooth-scroll-homepage.png
-└── bono-landing-form-homepage.png
-```
-
-After adding the screenshots, commit and push them along with `README.md`. The images will then appear in the project showcase above.
 
 ## Key Learning Outcomes
 
